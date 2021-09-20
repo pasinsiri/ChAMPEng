@@ -6,7 +6,7 @@ import numpy as np
 INPUT_FILE = './data/champeng_4_pair_rank.csv'
 EXPORT_PATH = './res/pair_selection_v2.csv'
 MAX_ORDER = 10
-SCORE_LIST = [34,21,13,8,5,3,2,1,1,1]
+# SCORE_LIST = [34,21,13,8,5,3,2,1,1,1]
 COLUMN_NAMES = ['timestamp', 'name', 'ID', 'year', 'major']
 
 def clean_rank_score(text):
@@ -64,7 +64,7 @@ def dup_flag(ranks):
         return 0
     else: return 1
 
-assert len(SCORE_LIST) == MAX_ORDER
+# assert len(SCORE_LIST) == MAX_ORDER
 
 # ? import data
 data = pd.read_csv(INPUT_FILE)
