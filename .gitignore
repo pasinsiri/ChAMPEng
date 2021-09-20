@@ -1,0 +1,8 @@
+# Files/folders to ignore
+.DS_Store
+.vscode
+*.xlsx
+*.csv
+Data
+RT_GoogleAPI
+RT_GoogleAPI/googleapi
