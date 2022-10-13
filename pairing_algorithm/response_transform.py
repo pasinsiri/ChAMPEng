@@ -3,9 +3,9 @@ import re
 import numpy as np
 
 # Parameters
-INPUT_FILE = './data/champeng_4_pair_rank.csv'
-EXPORT_PATH = './res/pair_selection_v2.csv'
-MAX_ORDER = 10
+INPUT_FILE = './data/raw_rank.csv'
+EXPORT_PATH = './res/pair_selection.csv'
+MAX_ORDER = 9
 # SCORE_LIST = [34,21,13,8,5,3,2,1,1,1]
 COLUMN_NAMES = ['timestamp', 'name', 'ID', 'year', 'major']
 
